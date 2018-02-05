@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.188.0",
+    "bluebird": "^3.5.1",
     "chalk": "^2.3.0",
     "lodash": "^4.17.5",
     "minimist": "^1.2.0"
