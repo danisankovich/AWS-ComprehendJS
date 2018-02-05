@@ -1,0 +1,17 @@
+{
+  "name": "aws-text-analyze",
+  "version": "1.0.0",
+  "description": "Analyze text with the AWS Comprehend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Sankovich",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.188.0",
+    "chalk": "^2.3.0",
+    "lodash": "^4.17.5",
+    "minimist": "^1.2.0"
+  }
+}
