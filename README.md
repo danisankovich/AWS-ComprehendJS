@@ -1,4 +1,6 @@
-to run the test:
+# AWS ComprehendJS
+
+## to run the test:
 ```
 $ node test.js --Text=STRING_TO_ANALYZE --detectEntities=BOOLEAN --detectSentiment=BOOLEAN
 ```
@@ -23,9 +25,9 @@ other options [ isLogged ]
 
 isLogged: logs the output to the node console
 
-Sample Request/Response:
+## Sample Request/Response:
 
-REQUEST:
+### REQUEST:
 ```
 
 $ node test.js
@@ -37,7 +39,7 @@ $ node test.js
 isLogged
 ```
 
-RESPONSE
+### RESPONSE
 
 ```
 {
