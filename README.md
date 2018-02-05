@@ -49,16 +49,7 @@ isLogged: logs the output to the node console
 
 $ node test.js
 
---Text='It made me happy that The jumped over the fence in Seattle. Lancaster was a fun trip
-though, I really enjoyed it. I managed to buy a nice cookie at the mall down the street.
-Unfortunately I could not find a nice skirt to wear. My cousin Alex was unable to come to
-be to Blue Cross Blue Shield building though, and he instead went to Florida State University,
-where he studied for 3 years before transferring to Notre Dame yesterday. So yeah Blue Cross
-Blue Shield and FSU are cool'
-
---detectEntities=true
---detectSentiment=true
-isLogged
+--Text='It made me happy that The jumped over the fence in Seattle. Lancaster was a fun trip though, I really enjoyed it. I managed to buy a nice cookie at the mall down the street. Unfortunately I could not find a nice skirt to wear. My cousin Alex was unable to come to be to Blue Cross Blue Shield building though, and he instead went to Florida State University, where he studied for 3 years before transferring to Notre Dame yesterday. So yeah Blue Cross Blue Shield and FSU are cool' --detectEntities=true --detectSentiment=true isLogged
 ```
 
 ### RESPONSE
