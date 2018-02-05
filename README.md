@@ -1,5 +1,24 @@
 # AWS ComprehendJS
 
+To download and configure the package:
+
+You will need to create an AWS account, create an IAM user, and configure
+keys to your AWS config file to use Amazon Comprehend.
+https://docs.aws.amazon.com/comprehend/latest/dg/auth-and-access-control.html
+
+
+```
+$ git clone https://github.com/mikesankovich/AWS-ComprehendJS.git
+
+$ cd AWS-ComprehendJS
+
+$ npm install
+
+
+
+```
+
+
 ## to run the test:
 ```
 $ node test.js --Text=STRING_TO_ANALYZE --detectEntities=BOOLEAN --detectSentiment=BOOLEAN
