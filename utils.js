@@ -124,6 +124,4 @@ const detectRoot = async (argv, comprehend) => {
   return await DATA;
 }
 
-module.exports = {
-  detectRoot
-}
+module.exports = { detectRoot }
